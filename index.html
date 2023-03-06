@@ -9,11 +9,17 @@
 </head>
 <body>
     <div class="main">
-        <div class="comment">
+        <div class="add_comment">
             <input type="text" id="name-comment">
             <input type="text" id="body-comment">
-            <button id="comment-add"></button>
+            <button id="comment-add" onclick="add_content()">Add</button>
         </div>
+
+        <div class="comments">
+            <div id="show_comments">
+
+            </div>
+        </div>   
     </div>
     <script src="./scripts/index.js"></script>
 </body>
