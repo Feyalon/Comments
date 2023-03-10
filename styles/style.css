@@ -1,1 +1,64 @@
+.add_comment{
+    background-color: azure;
+    height: 100px;
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
 
+}
+.add_comment div{
+    margin-left: 20px;
+}
+.comment_time{
+}
+.comment_time input{
+    height: 25px;
+    outline: none;
+    border: 2px solid black;
+}
+.comment_content{
+}
+.comment_content input{
+    height: 25px;
+    outline: none;
+    border: 2px solid black;
+}
+button{
+    width: 150px;
+    height: 30px;
+    margin-left: 20px;
+    background: none;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: 500ms all;
+}
+button:hover{
+    scale: 1.2;
+    border: 2px solid red;
+    color: red;
+}
+.sample{
+    flex-direction: column;
+    visibility: hidden;
+}
+.comments{
+
+}
+#show_comments{
+
+}
+#show_comments .commentname p{
+    margin: 0;
+}
+#show_comments .commentname{
+    display: flex;
+}
+
+#show_comments div{
+    display: flex;
+}
+#show_coments button{
+    
+}
